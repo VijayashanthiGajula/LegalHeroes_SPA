@@ -53,17 +53,21 @@
     <!-- Avatar image in top left corner -->
 
     <a href="#logo" class="w3-bar-item   w3-black">
-      <img src="Images/Logo_B&W.png" style="width:100%">
+      <img src="Logo_B&W.png" style="width:100%">
     </a>
     <a href="#header" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
         <i class="fa fa-home w3-xxlarge"></i>
         <p>HOME</p>
       </a>
+      <a href="#services" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+        <i class="fa fa-gear w3-xxlarge"></i>
+        <p>SERVICES</p>
+      </a>
 </nav>
 <div class="w3-padding-large" id="main">
   <!-- Logo -->
   <div class="w3-container w3-padding-32 w3-center w3-black" id="logo">
-    <img src="Images/logo-removebg-preview.png" class="w3-image w3-row-padding" alt="logo">
+    <img src="logo-removebg-preview.png" class="w3-image w3-row-padding" alt="logo">
   </div>
    <!--Header-->
    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="header">
@@ -81,8 +85,129 @@
       adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
     </p>
+   </div>
+  <!--Service--->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="services">
+
+
+    <h3 class="w3-padding-16 w3-text-light-grey"> Our Services</h3>
+    <!--ServiceMenu-->
+    <div>
+      <div class="w3-row-padding" style="margin:0 -16px" id="Menu">
+        <div class="w3-half w3-margin-bottom">
+          <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+            <li class="w3-dark-grey w3-xlarge w3-padding-32">
+              <a href="#Commercial"
+                onclick="document.getElementById('Commercial').style.display='block';">Commercial</a>
+            </li>
+          </ul>
+        </div>
+        <div class="w3-half w3-margin-bottom">
+          <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+            <li class="w3-dark-grey w3-xlarge w3-padding-32">
+              <a href="#Property" onclick="document.getElementById('Property').style.display='block';">Property</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half w3-margin-bottom">
+          <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+            <li class="w3-dark-grey w3-xlarge w3-padding-32">
+              <a href="#Trust" onclick="document.getElementById('Trust').style.display='block';">Trust Management</a>
+            </li>
+          </ul>
+        </div>
+        <div class="w3-half w3-margin-bottom">
+          <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+            <li class="w3-dark-grey w3-xlarge w3-padding-32">
+              <a href="#Partnership"
+                onclick="document.getElementById('Partnership').style.display='block';">Partnership dealings</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Description div -->
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64">
+      <div class="w3-margin-bottom" style="display: none;" id="Commercial">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Commercial</li>
+          <li>
+            <p>Our commercial practice provides the full range of advice required by business owners including:</p>
+          </li>
+          <li class="w3-padding-16">Business sale and acquisition </li>
+          <li class="w3-padding-16"> Corporate structures</li>
+          <li class="w3-padding-16">Capital raising and debt financing </li>
+          <li class="w3-padding-16"> Start up and commercialisation</li>
+          <li class="w3-padding-16"> Licensing and intellectual property protection</li>
+          <li class="w3-light-grey w3-padding-24">
+            <a href="#Menu" onclick="document.getElementById('Commercial').style.display='none';"
+              class="w3-button w3-white w3-padding-large w3-hover-black"> Back </a>
+            <span><a href="#Contact" class="w3-button w3-white w3-padding-large w3-hover-black"> Contact </a></span>
+          </li>
+        </ul>
+
+      </div>
+      <div class="w3-margin-bottom" style="display: none;" id="Property">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Property</li>
+          <li>
+            <p>Our property practice covers the full range of residential, commercial and industrial property issues
+              including:</p>
+          </li>
+          <li class="w3-padding-16">Commercial leases </li>
+          <li class="w3-padding-16">Commercial property sale and purchase</li>
+          <li class="w3-padding-16">Residential conveyancing </li>
+          <li class="w3-padding-16"> Property finance</li>
+          <li class="w3-padding-16"> Development and subdivisions</li>
+          <li class="w3-light-grey w3-padding-24">
+            <a href="#Menu" onclick="document.getElementById('Property').style.display='none';"
+              class="w3-button w3-white w3-padding-large w3-hover-black">Back</a>
+            <span><a href="#Contact" class="w3-button w3-white w3-padding-large w3-hover-black"> Contact </a></span>
+          </li>
+        </ul>
+      </div>
+      <div class="w3-margin-bottom" style="display: none;" id="Trust">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Trust Management</li>
+          <li>
+            <p> Our trusts and estates practice has a “whole of life” approach to wealth protection and succession
+              including:</p>
+          </li>
+          <li class="w3-padding-16">Estate planning </li>
+          <li class="w3-padding-16">Family trusts</li>
+          <li class="w3-padding-16">Wills and powers of attorney </li>
+          <li class="w3-padding-16"> Trust administration</li>
+
+          <li class="w3-light-grey w3-padding-24">
+            <a href="#Menu" onclick="document.getElementById('Trust').style.display='none';"
+              class="w3-button w3-white w3-padding-large w3-hover-black">Back</a>
+            <span><a href="#Contact" class="w3-button w3-white w3-padding-large w3-hover-black"> Contact </a></span>
+          </li>
+        </ul>
+
+      </div>
+      <div class="w3-margin-bottom" style="display: none;" id="Partnership">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Partnership dealings</li>
+          <li class="w3-padding-16">Joint ventures</li>
+          <li class="w3-padding-16">Business restructuring</li>
+          <li class="w3-padding-16">Shareholder agreements </li>
+          <li class="w3-padding-16"> Licensing and intellectual property protection</li>
+
+          <li class="w3-light-grey w3-padding-24">
+            <a href="#Menu" onclick="document.getElementById('Partnership').style.display='none';"
+              class="w3-button w3-white w3-padding-large w3-hover-black">Back</a>
+            <span><a href="#Contact" class="w3-button w3-white w3-padding-large w3-hover-black"> Contact </a></span>
+          </li>
+        </ul>
+
+      </div>
+      
+    </div>
   </div>
-  
 </body>
 
 </html>
