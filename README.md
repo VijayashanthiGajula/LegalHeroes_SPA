@@ -1,5 +1,5 @@
 # LegalHeroes_SPA
-Introduction of the project : Building a Single Page application for a law firm called Legal Heroes using HTML ,CSS, JS Purpose of the project is to work on code version controlling using git hub, gut bash and git desktop.
+Introduction of the project : Building a Single Page application for a law firm called Legal Heroes using HTML ,CSS, JS Purpose of the project is to work on code version controlling using git hub, gut bash and git desktop. w3CSS is used for styling,
 
 Getting Started:
 
